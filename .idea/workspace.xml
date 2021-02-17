@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de406b72-a32d-483e-a02f-4e9e4339e564" name="Default Changelist" comment="">
-      <change afterPath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/Procfile" afterDir="false" />
-      <change afterPath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/requirements.txt" afterDir="false" />
+    <list default="true" id="de406b72-a32d-483e-a02f-4e9e4339e564" name="Default Changelist" comment="Added Procfile and requirements.txt">
+      <change beforePath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/homerun_marketing_jobs.py" beforeDir="false" afterPath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/homerun_marketing_jobs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,18 @@
       <option name="presentableId" value="Default" />
       <updated>1613386703550</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Procfile and requirements.txt">
+      <created>1613544392656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613544392656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Procfile and requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Procfile and requirements.txt" />
   </component>
 </project>
