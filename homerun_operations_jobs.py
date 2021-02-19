@@ -3,7 +3,7 @@ from mail import *
 
 
 # Automation on candidates which are in "Selected for 2nd round"
-def selected_for_1st_or_2nd_round(job_url, email_template_name, j, k):
+def selected_for_1st_or_2nd_or_3rd_round(job_url, email_template_name, j, k):
     # Initialising variable i if any error occurs then move to next candidate
     i = 1
 
@@ -135,11 +135,11 @@ def selected_for_first_round(job_url, email_template_name, k):
 
 
 # Check candidates in "Send rejection mail" stage
-def send_rejection_mail(job_url, rejection_mail_template):
+def send_rejection_mail(job_url, rejection_mail_template, j, k):
     try:
         print("Checking Send rejection mail stage")
         i = 1
-        xpath = f'/html/body/div[3]/div/div[2]/div/div[3]/div[2]/div/div[7]/div/div/div[{i}]/a/div'
+        xpath = f'/html/body/div[3]/div/div[2]/div/div[3]/div[2]/div/div[{j}]/div/div/div[{i}]/a/div'
         while driver.find_element_by_xpath(xpath):
             driver.find_element_by_xpath(xpath).click()
 
@@ -170,7 +170,7 @@ def send_rejection_mail(job_url, rejection_mail_template):
             # Try if move_candidate function is working properly or not
             try:
                 # Move the candidate to "Rejected" Stage
-                move_candidate(9)
+                move_candidate(k)
 
                 # Wait for 5 seconds
                 time.sleep(5)
@@ -223,19 +223,22 @@ def recruiter():
     job_url = driver.current_url
 
     # Selected for 1st round
-    selected_for_1st_or_2nd_round(job_url, "1st round selection - Tejasvi", 2, 4)
+    selected_for_1st_or_2nd_or_3rd_round(job_url, "1st round selection - Tejasvi", 2, 4)
 
     # Wait for 2 seconds
     time.sleep(2)
 
     # Selected for 2nd round
-    selected_for_1st_or_2nd_round(job_url, "2nd round selection - Akshit", 4, 6)
+    selected_for_1st_or_2nd_or_3rd_round(job_url, "2nd round selection - Akshit", 4, 6)
 
     # wait for 2 seconds
     time.sleep(2)
 
+    # Selected for 3rd round
+    selected_for_1st_or_2nd_or_3rd_round(job_url, "3rd round selection - Varun", 6, 8)
+
     # Send rejection mail
-    send_rejection_mail(job_url, "Rejection - General")
+    send_rejection_mail(job_url, "Rejection - General", 9, 11)
 
 
 # Accountant
@@ -252,13 +255,13 @@ def accountant():
     job_url = driver.current_url
 
     # Selected for 1st round
-    selected_for_1st_or_2nd_round(job_url, "1st round selection - Akshit", 2, 4)
+    selected_for_1st_or_2nd_or_3rd_round(job_url, "1st round selection - Akshit", 2, 4)
 
     # wait for 2 seconds
     time.sleep(2)
 
     # Send rejection mail
-    send_rejection_mail(job_url, "Rejection - General")
+    send_rejection_mail(job_url, "Rejection - General", 7, 9)
 
 
 # Accountant
@@ -275,16 +278,16 @@ def automation():
     job_url = driver.current_url
 
     # Selected for 1st round
-    selected_for_1st_or_2nd_round(job_url, "1st round selection - Rishabh", 2, 4)
+    selected_for_1st_or_2nd_or_3rd_round(job_url, "1st round selection - Rishabh", 2, 4)
 
     # Wait for 2 seconds
     time.sleep(2)
 
     # Selected for 2nd round
-    selected_for_1st_or_2nd_round(job_url, "2nd round selection - Varun", 4, 6)
+    selected_for_1st_or_2nd_or_3rd_round(job_url, "2nd round selection - Varun", 4, 6)
 
     # Send rejection mail
-    send_rejection_mail(job_url, "Rejection - General")
+    send_rejection_mail(job_url, "Rejection - General", 7, 9)
 
 
 # Product Manager
@@ -301,16 +304,16 @@ def product_manager():
     job_url = driver.current_url
 
     # Selected for 1st round
-    selected_for_1st_or_2nd_round(job_url, "1st round selection - Anupam", 2, 4)
+    selected_for_1st_or_2nd_or_3rd_round(job_url, "1st round selection - Anupam", 2, 4)
 
     # Wait for 2 second
     time.sleep(2)
 
     # Selected for 2nd round
-    selected_for_1st_or_2nd_round(job_url, "2nd round selection - Akshit", 4, 6)
+    selected_for_1st_or_2nd_or_3rd_round(job_url, "2nd round selection - Akshit", 4, 6)
 
     # wait for 2 seconds
     time.sleep(2)
 
     # Send rejection mail
-    send_rejection_mail(job_url, "Rejection - General")
+    send_rejection_mail(job_url, "Rejection - General", 7, 9)

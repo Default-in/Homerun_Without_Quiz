@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de406b72-a32d-483e-a02f-4e9e4339e564" name="Default Changelist" comment="Added Procfile and requirements.txt">
-      <change beforePath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/homerun_marketing_jobs.py" beforeDir="false" afterPath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/homerun_marketing_jobs.py" afterDir="false" />
+    <list default="true" id="de406b72-a32d-483e-a02f-4e9e4339e564" name="Default Changelist" comment="add rejection mail checking functionality in Inside sales job">
+      <change beforePath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/driver_file.py" beforeDir="false" afterPath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/driver_file.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/homerun_operations_jobs.py" beforeDir="false" afterPath="$USER_HOME$/file:/media/sahil/C6BC0BB6BC0B9FD3/Work/Get%20Default/Projects/Automation/Homerun_Without_Quiz/homerun_operations_jobs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +77,19 @@
       <option name="project" value="LOCAL" />
       <updated>1613544392656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add rejection mail checking functionality in Inside sales job">
+      <created>1613545258794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613545258794</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Procfile and requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Procfile and requirements.txt" />
+    <MESSAGE value="add rejection mail checking functionality in Inside sales job" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rejection mail checking functionality in Inside sales job" />
   </component>
 </project>
