@@ -229,7 +229,7 @@ def recruiter():
     time.sleep(2)
 
     # Selected for 2nd round
-    selected_for_1st_or_2nd_or_3rd_round(job_url, "2nd round selection - Akshit", 4, 6)
+    selected_for_1st_or_2nd_or_3rd_round(job_url, "2nd round selection - Rishabh", 4, 6)
 
     # wait for 2 seconds
     time.sleep(2)
